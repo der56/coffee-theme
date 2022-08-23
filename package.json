@@ -1,0 +1,21 @@
+{
+    "name": "cofee-theme",
+    "displayName": "cofee-theme",
+    "description": "a beatiful cofee theme for js",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "cofee-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cofee-theme-color-theme.json"
+            }
+        ]
+    }
+}
